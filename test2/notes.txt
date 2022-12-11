@@ -1,0 +1,3 @@
+TEST 2
+
+Making it so that on each click, the square becomes either lighter or darker
