@@ -31,10 +31,12 @@ for (let i = 0; i < x; i++){
         innerDiv = document.createElement("div");
         innerDiv.style.boxSizing = 'border-box';
         innerDiv.id = 'grid';
-        innerDiv.style.border = '0.5px solid black';            innerDiv.style.flex = '1';
+        innerDiv.style.border = '0.5px solid black';  
+        innerDiv.style.flex = '1';
         innerDiv.style.margin = '0';
         innerDiv.style.padding = '0';
         newDiv.appendChild(innerDiv)
+
     };
 }
 
@@ -49,7 +51,7 @@ for (let i = 0; i < x; i++){
 
 // Update the current slider value (each time you drag the slider handle)
 slider.oninput = function() {
-    reset = document.querySelectorAll('#grid');
+    reset = document.querySelectorAll('#grid-item');
         reset.forEach((grid) => {
             grid.remove();
         })

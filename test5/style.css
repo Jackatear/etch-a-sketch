@@ -1,0 +1,55 @@
+* {
+    border: 0;
+    padding: 0;
+}
+
+body { 
+    width: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    font-size:1.5rem;
+    margin: 10px auto;
+    background-color: aquamarine;
+    padding: 5px 25px;
+    border-radius: 4px;
+}
+
+.grid-container {
+    border: 1px solid black;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    width: 500px;
+    margin: auto auto;
+}
+
+
+/* THESE CLASSES WILL BE APPLIED THROUGH THE JAVASCRIPT */
+
+.rowDivs {
+    display: flex;
+    flex: 1;
+    box-sizing: border-box;
+    width: 100%;
+    border: 0.5px solid black;
+}
+
+
+.columnDivs {
+    box-sizing: border-box;
+    flex: 1;
+    border: 0.5px solid black;
+}
+.columnDivs:hover {
+    background-color: grey;
+}
+
