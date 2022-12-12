@@ -1,0 +1,4 @@
+Here I am going to try to create a 'dynamic' grid using javascript
+--> instead of hard coding the grid in the html and css
+--> we want to ask the number how many rows and columns they would like
+--> then create a grid according to that 

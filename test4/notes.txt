@@ -1,0 +1,2 @@
+Here I am using javascript to change the display of an element
+by adding a class to its classlist

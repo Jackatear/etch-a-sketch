@@ -1,0 +1,1 @@
+Here I am going to practice using a slider and creating divs according to the value produced by the slider 
