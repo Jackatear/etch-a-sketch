@@ -19,6 +19,8 @@
 .new-style {
     border: 1px dotted white;
     background-color: black;
+    flex-direction: column;
+    height: 150px;
 }
 
 
