@@ -1,0 +1,30 @@
+* {
+    border: 0;
+    padding: 0;
+}
+
+html {
+    font-family: monospace;
+}
+
+h1 {
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+}
+
+
+.container {
+    background-color: rgb(185, 215, 230);
+    display: flex;
+    margin: auto auto;
+    padding: 20px;
+    height: 200px;
+    gap: 10px;
+    border: 7px solid rgb(91, 123, 132);
+}
+
+.grid {
+    flex: 1;
+    background-color: rgb(255, 255, 255);
+}

@@ -1,0 +1,25 @@
+1) create html layout
+--> TITLE
+--> COLOR PICKER
+--> SLIDER
+----------
+--> GRID CONTAINER
+----------
+--> CURRENT COLOR
+
+2) style the layout to a get basic template
+--> TITLE
+--> EMPTY COLOR PICKER DIVS
+--> SLIDER
+--> GRID CONTAINER (not grid yet)
+--> EMPTY CURRENT COLOR
+
+3) Use JS to style:
+--> COLOR PICKER DIVS
+--> CURRENT COLOR DIVS 
+--> GRID, BASED ON SLIDER VALUE 
+
+....
+....
+
+JAVASCRIPT
